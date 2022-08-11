@@ -2270,7 +2270,7 @@ __webpack_require__.r(__webpack_exports__);
         type: 'folder'
       };
       window.axios.post('/files', data).then(function (response) {
-        console.log("request => ", response);
+        console.log("request save => ", response);
         _this.name = '';
 
         _this.$emit('success');
